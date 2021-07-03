@@ -1,0 +1,27 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+.welcome-intro{
+    display: flex;
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+.half-width{
+    width: 50%;
+    padding: 60px;
+}
+.half-width img{
+ width: 50%;
+}
+h1{
+    font-size: 50px;
+    font-weight: 700;
+}
+h2{
+    font-size: 40px;
+    font-weight: 700;
+}
+.green-color{
+    color: chartreuse;
+}

@@ -2,7 +2,7 @@ body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
 }
-section{
+.flaxible-content{
     display: flex;
     margin-bottom: 150px;
 }
@@ -13,6 +13,7 @@ section{
 .half-width{
     width: 50%;
     padding-left: 5%;
+    
 }
 .half-width img{
     width: 80%; 
@@ -40,6 +41,46 @@ h3{
     background-repeat: no-repeat;
     background-position: right;
 }
+.expriance-area{
+    margin-bottom: 150px;
+    background: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
 .developer-are{
     display: flex;
+}
+.expriance-item{
+    width: 40%;
+    box-shadow: 10px 10px 40px gray; 
+    margin: 0px 5%;
+    padding: 50px;
+    border-radius: 10px;
+}
+#web-dev-1{
+    border-image: linear-gradient(salmon, tomato) 30;
+    border-image-slice: 1;
+    border-left: 7px solid;
+}
+#web-dev-2{
+    border-image: linear-gradient(blue, cyan) 30;
+    border-image-slice: 1;
+    border-left: 7px solid;
+}
+.blockquote-are{
+    margin: auto;
+    border-image: linear-gradient(rgb(67, 114, 218), rgb(73, 11, 131)) 30;
+    border-image-slice: 1;
+    border-left: 7px solid;
+}
+blockquote {
+    padding: 20px;
+    box-shadow:
+         inset 0 -3em 3em rgba(0,0,0,0.1),
+               0 0  0 2px rgb(255,255,255),
+               0.3em 0.3em 1em rgba(0,0,0,0.3);
+  }
+
+footer p{
+    text-align: center;
 }
